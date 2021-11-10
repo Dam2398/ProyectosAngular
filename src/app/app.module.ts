@@ -10,6 +10,9 @@ import { PianoComponent } from './components/piano/piano.component';
 import { MenuComponent } from './components/menu/menu.component';
 import { DadosComponent } from './components/dados/dados.component';
 import { TareasComponent } from './components/tareas/tareas.component';
+import { ConvertidorComponent } from './components/convertidor/convertidor.component';
+import { InicioBIMComponent } from './components/inicio-bim/inicio-bim.component';
+import { ResultadoIBMComponent } from './components/resultado-ibm/resultado-ibm.component';
 
 
 @NgModule({
@@ -18,7 +21,10 @@ import { TareasComponent } from './components/tareas/tareas.component';
     PianoComponent,
     MenuComponent,
     DadosComponent,
-    TareasComponent
+    TareasComponent,
+    ConvertidorComponent,
+    InicioBIMComponent,
+    ResultadoIBMComponent
   ],
   imports: [
     BrowserModule,

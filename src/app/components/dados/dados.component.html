@@ -1,15 +1,17 @@
 <div class="mt-5"></div>
 <div class="d-grid gap-2 col-6 mx-auto">
-    <button class="btn btn-primary" (click)="tirarDados()" type="button"> <h2>Tirar dados</h2> </button>
+    <button class="btn btn-primary" (click)="tirarDados()" type="button">
+        <h2>Tirar dados</h2>
+    </button>
 </div>
-<div class="text-center">
+<div class="text-center" style="margin-bottom: 50px;">
+    <br>
+    <div *ngIf="numero1 === numero2" class="alert alert-success"  role="alert">
+        <h1>
+            Ganaste!
+        </h1>
+    </div>
     <img class="img" [src]="dadoIzq">
     <img class="img" [src]="dadoDer">
-    <br>
-    <div *ngIf="numero1 === numero2" class="alert alert-success" style="margin-bottom: 50px;" role="alert">
-        <h1 >
-            Ganaste
-        </h1>
 
-      </div>
 </div>

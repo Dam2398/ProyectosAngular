@@ -1,0 +1,64 @@
+.titulo{
+    font-family: 'Raleway';
+    text-align: center;
+    margin-top: 25px;
+}
+
+.row{
+    margin-top: 20px;
+}
+
+.fondoItem{
+    background-color: #ff111562;
+    height: 130px;
+    border-radius: 20px;
+    color: white;
+}
+
+.btn-color{
+    background-color: #FF3366;
+    border-color: #FF3366;
+    border-radius: 25px;
+    width: 100%;
+}
+
+.genero{
+    font-size: 40px;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+}
+.estiloNumero{
+    font-size: 32px;
+    font-weight: 800;
+}
+.cm{
+    font-size: 16px;
+    font-weight: 400;
+
+}
+.form-range{
+    padding: 0px 20px;
+    margin-bottom: 12px;
+
+}
+
+input[type=range]::-webkit-slider-thumb{
+    background: #FF3366;
+}
+.sumaResta{
+    cursor: pointer;
+    background-color: #ff4c4f7c;
+    padding: 7px;
+    border-radius: 15px;
+    margin-left: 3px;
+}
+
+.generoDes{
+    background-color: #7d2f2f86;
+}
